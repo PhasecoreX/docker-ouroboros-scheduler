@@ -2,7 +2,7 @@
 Run Ouroboros on a cron schedule instead of an interval
 
 ## How to Run
-This image extends `circa10a/ouroboros`, so go here to learn all about how to use it: [https://github.com/circa10a/ouroboros][https://github.com/circa10a/ouroboros]
+This image extends `circa10a/ouroboros`, so go here to learn all about how to use it: https://github.com/circa10a/ouroboros
 
 There are two extra environment variables you can specify with this image:
 - `CRON=15 5 * * *`: Specify the cron schedule you would like Ouroboros to run at.
