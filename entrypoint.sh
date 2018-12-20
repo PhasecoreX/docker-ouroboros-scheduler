@@ -12,8 +12,7 @@ if [ ! -z ${TZ+x} ]; then
 fi
 
 if [ ! -z ${CRON+x} ]; then
-    mkdir -p /var/spool/cron/crontabs
-    echo "${CRON} ouroboros --interval 1 --runonce" | crontab -
+    echo "${CRON} ouroboros $@ --interval 1 --runonce" | crontab -
     echo "Cron schedule set to $CRON"
 else
     echo "Please set the environment variable CRON to your desired update schedule."
