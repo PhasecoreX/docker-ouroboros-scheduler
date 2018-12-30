@@ -1,4 +1,5 @@
-#!/usr/bin/env sh -e
+#!/usr/bin/env sh
+set -e
 
 if [ ! -z ${TZ+x} ]; then
     if [ -f "/usr/share/zoneinfo/$TZ" ]; then
