@@ -1,4 +1,4 @@
-FROM circa10a/ouroboros:latest
+FROM pyouroboros/ouroboros:latest
 
 MAINTAINER Ryan Foster <phasecorex@gmail.com>
 
