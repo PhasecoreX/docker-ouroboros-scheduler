@@ -1,3 +1,6 @@
+### NOTE
+The official `pyouroboros/ouroboros` image now has support for cron scheduling and timezone setting, so this docker image is no longer useful. Thus, it has been removed.
+
 # Ouroboros Scheduler
 Run Ouroboros on a cron schedule instead of an interval
 
